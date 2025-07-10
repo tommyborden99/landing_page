@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right-side {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.box-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-one .right-side {
+    display: flex;
+    width: 500px;
+    flex: 1, 1, 1;
+}
+.box-one .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex: 1, 1, 1;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-three {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column;
+}
+
+.box-four .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-four .quote-credit {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: end;
+    width: 80%;
+}
