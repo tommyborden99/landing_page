@@ -1,29 +1,46 @@
 .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #1F2937;
+    color: white;
+    margin: 0px;
 }
 
 .header-right-side {
     display: flex;
     justify-content: flex-end;
-
+    list-style-type: none;
 }
 
 .box-one {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 50px;
 }
 
 .box-one .right-side {
     display: flex;
     width: 500px;
     flex: 1, 1, 1;
+    background-color: #5a5a5a;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .box-one .left-side {
     display: flex;
     flex-direction: column;
     width: 500px;
     flex: 1, 1, 1;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .box-two {
@@ -35,9 +52,12 @@
 .box-three {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5%;
     padding-left: 20%;
     padding-right: 20%;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 12px;
 }
 
 .box-four {
@@ -47,6 +67,9 @@
     padding-left: 20%;
     padding-right: 20%;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .box-four .quote {
@@ -60,4 +83,62 @@
     justify-content: flex-end;
     align-items: end;
     width: 80%;
+}
+
+.box-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #3882F6;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-six {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+li {
+    display: inline;
+}
+
+.empty-tile {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10%;
+    border-color: #3882F6;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tile {
+    max-width: 100px;
+}
+html {
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    font-family: roboto;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    color: inherit;
 }
