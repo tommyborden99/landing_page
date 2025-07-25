@@ -22,6 +22,10 @@
     padding-bottom: 50px;
 }
 
+.box-one button {
+    border-color: #3882F6;
+}
+
 .box-one .right-side {
     display: flex;
     width: 500px;
